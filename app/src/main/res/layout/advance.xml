@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="xyz.topapproid.www.kitchen.Advance">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#fff">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/a1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/empty"
+                android:textSize="18sp"
+                android:textColor="#0711cc"
+                android:linksClickable="true"/>
+            <TextView
+                android:id="@+id/a2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/empty"
+                android:textSize="18sp"
+                android:textColor="#000000"
+                android:linksClickable="true"/>
+            <TextView
+                android:id="@+id/a3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/empty"
+                android:textSize="18sp"
+                android:textColor="#000000"
+                android:linksClickable="true"/>
+            <TextView
+                android:id="@+id/a4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/empty"
+                android:textSize="18sp"
+                android:textColor="#000000"
+                android:linksClickable="true"/>
+            <Button
+                android:id="@+id/btn_share"
+                android:layout_width="250dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@color/colorPrimary"
+                android:text="@string/share"
+                android:textSize="18sp"
+                android:textColor="#fff"/>
+
+            <TextView
+                android:id="@+id/tss"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:text="@string/empty" />
+
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:background="#fb01ff"
+                    >
+
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="4dp"
+                            android:paddingStart="10dp"
+                            android:paddingEnd="10dp"
+                            android:paddingRight="10dp"
+                            android:paddingLeft="10dp"
+                            android:background="@drawable/shape_1"
+                            android:text="إسم الوجبة /"
+                            />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="4dp"
+                            android:paddingStart="10dp"
+                            android:paddingEnd="10dp"
+                            android:paddingRight="10dp"
+                            android:paddingLeft="10dp"
+                            android:background="@drawable/shape_1"
+                            android:text=" وصف الوجبة  / " />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="4dp"
+                            android:paddingStart="10dp"
+                            android:paddingEnd="10dp"
+                            android:paddingRight="10dp"
+                            android:paddingLeft="10dp"
+                            android:background="@drawable/shape_1"
+                            android:text="السعر / ... عدد الافراد / .." />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="4dp"
+                            android:paddingStart="10dp"
+                            android:paddingEnd="10dp"
+                            android:paddingRight="10dp"
+                            android:paddingLeft="10dp"
+                            android:background="@drawable/shape_1"
+                            android:text="التقييم / 4.7 " />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="4dp"
+                            android:paddingStart="10dp"
+                            android:paddingEnd="10dp"
+                            android:paddingRight="10dp"
+                            android:paddingLeft="10dp"
+                            android:background="#21a300"
+                            android:textColor="#fff"
+                            android:textAlignment="center"
+                            android:textSize="22sp"
+                            android:text="عرض التفاصيل " />
+                    </LinearLayout>
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="#fff"
+                        android:layout_gravity="center_vertical"
+                        android:layout_margin="4dp"
+                        android:src="@drawable/chief"
+                        />
+                </LinearLayout>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="3dp"
+                    />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="xyz.topapproid.www.kitchen.MainActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffff">
+
+        <LinearLayout
+            android:id="@+id/layout_newuser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:text="@string/mobile"
+                android:textAlignment="center"
+                android:textSize="18sp"
+                android:textColor="#ff000000"/>
+
+            <TextView
+                android:id="@+id/phone_sign"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:ems="10"
+                android:hint="@string/mobile"
+                android:text="@string/empty"
+                android:textAlignment="center"
+                android:textSize="18sp"
+                tools:ignore="RtlCompat"
+                android:textColor="#ff000000"/>
+
+
+
+
+            <EditText
+                android:id="@+id/name_sign"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:ems="10"
+                android:hint="@string/name"
+                android:inputType="text"
+
+                android:text="@string/empty"
+                android:textAlignment="textStart"
+                tools:ignore="RtlCompat" />
+
+            <CheckBox
+                android:id="@+id/checkBox"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+
+                android:checked="true"
+                android:text="@string/get_loc" />
+
+            <Button
+                android:id="@+id/btn_accept22"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:text="@string/accept_mask"
+                android:textColor="#2346e1"/>
+
+            <Button
+                android:id="@+id/signup"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="250dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center_horizontal"
+                android:background="#08ff00"
+                android:text="@string/sign" />
+
+            <ProgressBar
+                android:id="@+id/progressBar4"
+                style="?android:attr/progressBarStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="invisible"
+                tools:visibility="invisible" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>
+

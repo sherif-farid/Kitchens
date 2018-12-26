@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="xyz.topapproid.www.kitchen.View_mael">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffff"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#ffffff">
+
+            <ImageView
+                android:id="@+id/imgV"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:contentDescription="@string/empty"
+                app:srcCompat="@drawable/platempty" />
+
+            <TextView
+                android:id="@+id/my_distance"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:text="@string/empty" />
+
+            <RatingBar
+                android:id="@+id/ratingBar"
+                android:layout_width="245dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:rating="3.5"
+                android:numStars="5"
+                            />
+
+            <TextView
+                android:id="@+id/t1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/maelname"
+                android:textColor="#2c59ec"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:textSize="18sp"
+                />
+
+            <TextView
+                android:id="@+id/t2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:textSize="18sp"
+                android:text="@string/empty" />
+
+            <TextView
+                android:id="@+id/t3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/meal_desc"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:textSize="18sp"
+                android:textColor="#2c59ec"/>
+
+            <TextView
+                android:id="@+id/t4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:textSize="18sp"
+                android:text="@string/empty" />
+
+            <TextView
+                android:id="@+id/t5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/meal_pric"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:textSize="18sp"
+                android:textColor="#2c59ec"/>
+
+            <TextView
+                android:id="@+id/t6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:textSize="18sp"
+                android:text="@string/empty" />
+
+            <TextView
+                android:id="@+id/t7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:textSize="18sp"
+                android:text="@string/num_avail"
+                android:textColor="#2c59ec"/>
+
+            <TextView
+                android:id="@+id/t8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:textSize="18sp"
+                android:text="@string/empty" />
+
+            <Button
+                android:id="@+id/btn_call"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/call"
+                android:textSize="18sp"
+                android:background="#17e736"/>
+            <TextView
+                android:id="@+id/tex12"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:text="@string/empty" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+
+        >
+
+        <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/adView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            ads:adSize="SMART_BANNER"
+            ads:adUnitId="ca-app-pub-2041092702369649/9672449192" />
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

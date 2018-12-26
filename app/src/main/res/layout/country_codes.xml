@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="xyz.topapproid.www.kitchen.Country_codes"
+
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffff"
+       >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:orientation="vertical"
+          >
+
+            <Button
+                android:id="@+id/mauritania"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:background="#fff"
+                android:onClick="code"
+                android:text="@string/mauritania"
+                android:textAlignment="textStart"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/morocco"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:onClick="code"
+                android:background="#fff"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/morocco"
+                android:textAlignment="textStart"
+                android:textSize="18sp"
+                android:layout_marginTop="1dp"
+                />
+
+            <Button
+                android:id="@+id/algeria"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:onClick="code"
+                android:background="#fff"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/algeria"
+                android:textAlignment="textStart"
+                android:textSize="18sp"
+                android:layout_marginTop="1dp"
+                />
+
+            <Button
+                android:id="@+id/tunisia"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:onClick="code"
+                android:background="#fff"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tunisia"
+                android:textAlignment="textStart"
+                android:textSize="18sp"
+                android:layout_marginTop="1dp"
+                />
+
+            <Button
+                android:id="@+id/libya"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:onClick="code"
+                android:background="#fff"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/libya"
+                android:textAlignment="textStart"
+                android:textSize="18sp"
+                android:layout_marginTop="1dp"
+                />
+
+            <Button
+                android:id="@+id/egypt"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:onClick="code"
+                android:background="#fff"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/egypt"
+                android:textAlignment="textStart"
+                android:textSize="18sp"
+                android:layout_marginTop="1dp"
+                />
+
+            <Button
+                android:id="@+id/sudan"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:onClick="code"
+                android:background="#fff"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sudan"
+                android:textAlignment="textStart"
+                android:textSize="18sp"
+                android:layout_marginTop="1dp"
+                />
+
+            <Button
+                android:id="@+id/saudi"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:onClick="code"
+                android:background="#fff"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/saudi"
+                android:textAlignment="textStart"
+                android:textSize="18sp"
+                android:layout_marginTop="1dp"
+                />
+
+            <Button
+                android:id="@+id/yemen"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:onClick="code"
+                android:background="#fff"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/yemen"
+                android:textAlignment="textStart"
+                android:textSize="18sp"
+                android:layout_marginTop="1dp"
+                />
+
+            <Button
+                android:id="@+id/oman"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:onClick="code"
+                android:background="#fff"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/oman"
+                android:textAlignment="textStart"
+                android:textSize="18sp"
+                android:layout_marginTop="1dp"
+                />
+
+            <Button
+                android:id="@+id/emarates"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:onClick="code"
+                android:background="#fff"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/emarates"
+                android:textAlignment="textStart"
+                android:textSize="18sp"
+                android:layout_marginTop="1dp"
+                />
+
+            <Button
+                android:id="@+id/qatar"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:onClick="code"
+                android:background="#fff"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/qatar"
+                android:textAlignment="textStart"
+                android:textSize="18sp"
+                android:layout_marginTop="1dp"
+                />
+
+            <Button
+                android:id="@+id/kuwait"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:onClick="code"
+                android:background="#fff"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/kuwait"
+                android:textAlignment="textStart"
+                android:textSize="18sp"
+                android:layout_marginTop="1dp"
+                />
+
+            <Button
+                android:id="@+id/bahrin"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:onClick="code"
+                android:background="#fff"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/bahrin"
+                android:textAlignment="textStart"
+                android:textSize="18sp"
+                android:layout_marginTop="1dp"
+                />
+
+            <Button
+                android:id="@+id/iraq"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:onClick="code"
+                android:background="#fff"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/iraq"
+                android:textAlignment="textStart"
+                android:textSize="18sp"
+                android:layout_marginTop="1dp"
+                />
+
+            <Button
+                android:id="@+id/syria"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:onClick="code"
+                android:background="#fff"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/syria"
+                android:textAlignment="textStart"
+                android:textSize="18sp"
+                android:layout_marginTop="1dp"
+                />
+
+            <Button
+                android:id="@+id/palestine"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:onClick="code"
+                android:background="#fff"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/palestine"
+                android:textAlignment="textStart"
+                android:textSize="18sp"
+                android:layout_marginTop="1dp"
+                />
+
+            <Button
+                android:id="@+id/jordon"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:onClick="code"
+                android:background="#fff"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/jordon"
+                android:textAlignment="textStart"
+                android:textSize="18sp"
+                android:layout_marginTop="1dp"
+                />
+
+            <Button
+                android:id="@+id/lebanon"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:onClick="code"
+                android:background="#fff"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/lebanon"
+                android:textAlignment="textStart"
+                android:textSize="18sp"
+                android:layout_marginTop="1dp"
+                />
+            <Button
+                android:id="@+id/other"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:onClick="code"
+                android:background="#fff"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/other"
+                android:textAlignment="textStart"
+                android:textSize="18sp"
+                android:layout_marginTop="1dp"
+                />
+
+
+        </LinearLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>

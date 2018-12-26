@@ -1,0 +1,124 @@
+<resources>
+    <string name="app_name">مطبخي</string>
+    <string name="your_location">جاري تحديد موقعك</string>
+    <string name="empty" />
+    <string name="title_activity_maps">Map</string>
+    <string name="order_now">شاهد الوجبات القريبة حولك</string>
+    <string name="can_cock">هل تجيد الطهي ؟ إضغط هنا</string>
+    <string name="or_new_user">إنشاء مستخدم جديد</string>
+    <string name="mobile">موبايل</string>
+    <string name="password">باسوورد</string>
+    <string name="name">الأسم</string>
+    <string name="get_loc">أوافق علي تحديد الموقع الحالي موقع ثابت لتلقي الطلبات</string>
+    <string name="or_signin">لديك حساب بالفعل ؟ تسجيل الدخول</string>
+    <string name="sign_up">تسجيل مستخدم جديد</string>
+    <string name="sign">تسجيل الدخول</string>
+    <string name="go_new_user">ليس لديك حساب ؟ إنشاء  حساب جديد</string>
+    <string name="title_activity_mlist">MList</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="maelname">إسم الوجبة</string>
+    <string name="meal_desc">وصف الوجبة</string>
+    <string name="meal_pric">سعر الوجبة ج م</string>
+    <string name="num_avail">عدد الأفراد المتاحة</string>
+    <string name="edit">تعديل</string>
+    <string name="test_fire">fire base</string>
+    <string name="day_mael">وجبة اليوم</string>
+    <string name="account_info"> إعدادات الحساب</string>
+    <string name="settings">إعدادات</string>
+    <string name="about">حول البرنامج</string>
+    <string name="meal_name">ادخل إسم الوجبة</string>
+    <string name="meal_des">أدخل وصف الوجبة</string>
+    <string name="meal_price">سعر الوجبة للفرد الواحد</string>
+    <string name="numberof_meal">أدخل عدد الأفراد المتاحة</string>
+    <string name="meal_photo">أضف صورة شاملة للوجبة</string>
+    <string name="puplish_meal">حفظ ومعاينة</string>
+    <string name="title_activity_maps2">Map</string>
+    <string name="puplish"> نشر الوجبة </string>
+    <string name="htm"><![CDATA[
+
+
+
+        <p><font color ="blue" >الهدف من البرنامج</font><br/>
+هذا البرنامج هو مشروع منزلي بسيط بدون أدني تكلفة  يساعدك علي تقديم وجباتك المنزلية اليومية للأفراد القريبين من حولك بمقابل مادي
+ولا يشترط التقييد بوجبة معينة  فيمكنك نشر أي وجبة تم إعدادها خلال اليوم
+<font color ="blue" >خطوات عمل البرنامج :</font><br/>
+بعد تحميل البرنامج من متجر  جوجل بلاي
+قم بتسجيل الدخول <br/>
+سوف يقوم البرنامج تلقائيا بتحديد موقعك الذي سيتم تقديم الوجبات من خلاله<br/>
+</br>أدخل رقم الهاتف الذي سوف تتلقي عليه الطلبات <br/>
+بعد ذلك قومي بإضافة الوجبة اليومية التي اعدت في المنزل بالفعل مع إضافة صورة توضيحية لكل مكونات الوجبة
+وكتابة بعض المواصفات مثل<br/></br> إسم الوجبة (مثال : صنية بطاطس ....)
+و إضافة وصف الوجبة ومكوناتها</br> <br/>
+تحديد سعر الوجبة للفرد الواحد</br><br/>
+تحديد عدد الأفراد المتاحة</br> فمثلاً هل يمكنك تقديم هذه الوجبة لشخص واحد أم أثنان أم ثلاثة أم أكثر</br>
+بعد ذلك لا تنسي نشر الوجبة للعامة حتي تكون مرئية لكل من هم قريبين حولك أو كل من يمر بجوارك</br>
+<br/><font color ="blue" >إرشادات لزيادة مبيعاتك : </font><br/>
+في البداية يجب التنويه علي عدم تحمل أي تكلفة في إعداد أي وجبات مخصصة للعرض بل يكتفي بالوجبة اليومية لديكي<br/>
+<br/> فمثلاً .. إذا كانت وجبة اليوم لديك هي مسقعة فيكتفي بها وتكون هي وجبة اليوم المعروضة حتي إذا لم يطلبها أحد لا تكوني قد تحملتي أي تكلفة بسبب هذا التطبيق وإذا طلبها أحد الأشخاص فنصيب فرد واحد في الوجبة لن يؤثر بالطبع علي الكمية التي أعددتها لأسرتك
+<br/>	يجب إحضار بعض الأطباق الفوم وأكياس التغليف حتي يمكنك تغليف الوجبة بشكل جيد وتسليمها للزبون بسرعه وسهولة
+</br>إذا رأي أحد الأشخاص القريبين من حولك الوجبة وأراد أن يحصل عليها فسوف يقوم بالإتصال بك علي الهاتف الذي أدخلته أثناء التسجيل
+ <br/><font color ="blue" >ما هي المعلومات التي ستظهر للعامة ؟</font><br/>
+كل ما سيظهر للعامة هو موقعك الحالي (أثناء التسجيل ) ورقم الهاتف وبيانات وصورة الوجبة التي يتم تحديثها يومياً
+
+</p>
+
+       ]]>
+ </string>
+    <string name="retype_password">أعد كتابة الباسوورد</string>
+
+    <string name="accept_mask"> بالضغط علي تسجيل الدخول فأنت توافق علي شروط الخدمة أو للقراءة إضغط هنا </string>
+    <string name="snd_code">أرسل كود التفعيل</string>
+    <string name="check_code">تحقق الآن</string>
+    <string name="enter_phone">أدخل رقم الهاتف</string>
+    <string name="step1">خطوة 1</string>
+    <string name="step2">خطوة 2</string>
+    <string name="ex1">أدخل رقم الهاتف المراد تفعيله وسوف يتم أرسال رسالة نصية من هاتفك بسعر الرسالة العادية</string>
+    <string name="ex2">فور إرسال الرسالة وإستلامها علي هاتفك إضغط علي تحقق الآن لتأكيد رقم الهاتف</string>
+
+    <string name="action_settings">تسجيل الخروج</string>
+    <string name="call">إتصل الآن</string>
+    <string name="on_of">إظهار / إخفاء</string>
+    <string name="state">الحالة</string>
+    <string name="t1">شروط الخدمة</string>
+    <string name="t2">هذا البرنامج معد لتقديم الوجبات المنزلية للعامة سواء بمقابل أو بدون مقابل ولذلك يجب علي مقدمة أو مقدم الوجبة أن يراعي كافة الشروط والصلاحيات القانونية في بلده التي تتعلق بهذا الصدد</string>
+    <string name="t3">عند إستخدامك لهذا البرنامج فأنت تقر بأنك شخص طبيعي كامل الأهلية ومؤهل لتقديم وجبات للعامة وتقر بصلاحية هذه الوجبات للإستهلاك الآدمي وأنك مسئول مسئولية كاملة عن أي ضرر يتسبب لأي شخص جراء تناول هذه الوجبة سواء بقصد أو بدون قصد</string>
+    <string name="t4">يجب أن لا يقل العمر عن 18 عام</string>
+    <string name="t5">البرنامج غير مسئول إطلاقاً عن أي خلاف يحدث بين مقدم الوجبة والعميل لأي سبب من الأسباب</string>
+    <string name="t6">بإستخدامك لهذا البرنامج فأنت توافق علي مشاركة بعض المعلومات للعامة مثل الموقع الحالي لتقديم الوجبات ورقم الهاتف المخصص لطلب الوجبات ومعلومات الوجبة مثل إسم الوجبة وتفاصيلها وصورتها والسعر</string>
+    <string name="a1">إرشادات</string>
+    <string name="a2">كود التفعيل هو رسالة نصية يتم إرسالها من الرقم المراد تفعيله</string>
+    <string name="a3">لذلك إذا كان لديك في الهاتف 2 شريحة يجب التأكد من أن الرقم المراد تفعيله هو نفس الرقم الذي تم إرسال الرسالة منه</string>
+    <string name="a4">فمثلاً إذا أردت تأكيد رقم الهاتف المثبت في الشريحة 1 في هاتفك يجب أن يكون هذا الرقم الذي يرسل الرسائل النصية وليس الرقم الآخر في شريحة 2  والعكس صحيح</string>
+    <string name="a5">وأخيراً يرجي الإحتفاظ بكود التفعيل في البريد الوارد للرسائل وعدم حذفه حتي إذا سجلت الخروج من البرنامج وأردت الدخول مرة أخري بنفس رقم الهاتف لايتم إرسال الرسالة في كل مرة</string>
+    <string name="share">مشاركة التطبيق</string>
+    <string name="increase_sales">نصائح لزيادة المبيعات</string>
+    <string name="egypt">مصر +2</string>
+    <string name="chose_country">إختر الدولة</string>
+    <string name="plus">+</string>
+    <string name="mauritania">موريتانيا   +222</string>
+    <string name="morocco">المغرب +212</string>
+    <string name="algeria">الجزائر   +213</string>
+    <string name="tunisia">تونس  +216</string>
+    <string name="libya">ليبيا   +218</string>
+    <string name="sudan">السودان  +249</string>
+    <string name="saudi">السعودية  +966</string>
+    <string name="yemen">اليمن  +967</string>
+    <string name="oman">سلطنة عمان  +968</string>
+    <string name="emarates">الإمارات  +971</string>
+    <string name="qatar">قطر  +974</string>
+    <string name="kuwait">الكويت  +965</string>
+    <string name="bahrin">البحرين  +973</string>
+    <string name="iraq">العراق  +964</string>
+    <string name="syria">سوريا  +963</string>
+    <string name="palestine">فلسطين  +970</string>
+    <string name="jordon">الأردن +962</string>
+    <string name="lebanon">لبنان  +961</string>
+    <string name="send_feedback">الإبلاغ عن مشكلة</string>
+    <string name="other">دولة أخرى</string>
+    <string name="facebook_app_id">102804017234927</string>
+    <string name="all">ALL</string>
+    <string name="main_page">الصفحة الرئيسية</string>
+    <string name="freemael">وجبة مجانية لإفطار صائم</string>
+</resources>

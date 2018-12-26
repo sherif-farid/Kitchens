@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="xyz.topapproid.www.kitchen.Myprofile">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffff">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:layout_margin="16dp"
+            android:orientation="vertical">
+
+
+
+            <EditText
+                android:id="@+id/meal_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/meal_name"
+                android:inputType="textPersonName"
+                android:text="@string/empty"
+                android:textAlignment="textStart"
+                android:layout_gravity="start" />
+
+            <EditText
+                android:id="@+id/meal_des"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/meal_des"
+                android:inputType="textPersonName"
+                android:text="@string/empty"
+                android:textAlignment="textStart"
+                android:layout_gravity="start" />
+
+            <EditText
+                android:id="@+id/meal_price"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/meal_price"
+                android:inputType="number"
+                android:text="@string/empty"
+                android:textAlignment="textStart"
+                android:layout_gravity="start" />
+
+            <CheckBox
+                android:id="@+id/free"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#0d8600"
+                android:textStyle="bold"
+                android:text="@string/freemael" />
+
+            <EditText
+                android:id="@+id/maele_numoppersons"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/numberof_meal"
+                android:inputType="number"
+                android:text="@string/empty"
+                android:textAlignment="textStart"
+                android:layout_gravity="start" />
+
+            <Button
+                android:id="@+id/button5"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="250dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@color/colorPrimary"
+                android:text="@string/meal_photo"
+                android:textColor="#ffffff"/>
+
+            <ImageView
+                android:id="@+id/im_maels"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:contentDescription="@string/meal_photo"
+
+                />
+
+            <TextView
+                android:id="@+id/dir_uri"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/empty" />
+
+            <Button
+                android:id="@+id/bshow"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginEnd="0dp"
+                android:background="#19ed44"
+                android:text="@string/puplish_meal"
+                android:layout_marginRight="0dp" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:text="@string/empty" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+
+        >
+
+        <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/adView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            ads:adSize="SMART_BANNER"
+            ads:adUnitId="ca-app-pub-2041092702369649/6556111511" />
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>
+

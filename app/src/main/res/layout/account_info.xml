@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="xyz.topapproid.www.kitchen.Account_info">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingRight="8dp"
+            android:text="@string/name"
+            android:textColor="#ff000000"
+            android:textSize="20sp"
+            />
+
+        <TextView
+            android:id="@+id/myname"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#ffffff"
+            android:paddingRight="8dp"
+            android:text="@string/empty"
+            android:textColor="#ff000000"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingRight="8dp"
+            android:text="@string/mobile"
+            android:textColor="#ff000000"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:id="@+id/myphone"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#ffffff"
+            android:paddingRight="8dp"
+            android:text="@string/empty"
+            android:textColor="#ff000000"
+            android:textSize="20sp"
+            />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingRight="8dp"
+            android:text="@string/state"
+            android:textColor="#ff000000"
+            android:textSize="20sp"/>
+
+        <Switch
+            android:id="@+id/switch1"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:background="#ffffff"
+            android:checked="true"
+            android:paddingRight="8dp"
+            android:text="@string/on_of"
+            android:textColor="#ff000000"
+            android:textSize="20sp"
+            />
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
